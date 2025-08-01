@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart | Beats</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Lottie -->
+  <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/shop.css" />
+  <link rel="stylesheet" href="css/blog.css" />
+  <link rel="stylesheet" href="css/cart.css" />
+
+  <!-- Custom Script -->
+  <script src="js/index.js" defer></script>
+</head>
+<body>
+
+<!-- Header -->
+<div class="home">
+  <header class="primary-header container flex">
+    <div class="header-inner-one flex">
+      <div class="logo">
+        <h1 class="logo1">BEATS</h1>
+      </div>
+      <nav>
+        <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+          <button class="mobile-close-btn" data-close-button>
+            <i class="fas fa-times-circle"></i>
+          </button>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header-login flex">
+      <a href="user.html">
+        <lord-icon src="https://cdn.lordicon.com/dygfbwwx.json" trigger="hover"></lord-icon>
+      </a>
+      <a href="wishlist.html">
+        <lord-icon src="https://cdn.lordicon.com/gbkitytd.json" trigger="hover"></lord-icon>
+      </a>
+     
+    </div>
+  </header>
+</div>
+
+<!-- Breadcrumb -->
+<section class="shop-feature bg-light-red grid">
+  <div><p>Home <span>></span> Cart</p></div>
+  <h2>Cart</h2>
+</section>
+
+<!-- Cart Table -->
+<section class="table">
+  <table>
+    <thead class="thead">
+      <tr>
+        <td></td>
+        <td></td>
+        <td>Product</td>
+        <td>Price</td>
+        <td>Quantity</td>
+        <td>Subtotal</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><i class="fas fa-times"></i></td>
+        <td><i class="fas fa-headphones"></i></td>
+        <td>Beats Studio</td>
+        <td>$995.00</td>
+        <td><input type="number" min="1" value="1" /></td>
+        <td>$995.00</td>
+      </tr>
+      <tr>
+        <td><i class="fas fa-times"></i></td>
+        <td><i class="fas fa-headphones"></i></td>
+        <td>Beats Pro</td>
+        <td>$995.00</td>
+        <td><input type="number" min="1" value="1" /></td>
+        <td>$995.00</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="copen-box flex">
+    <div>
+      <input class="copen-input" type="text" placeholder="Enter Coupon Code">
+      <button class="coupon-btn">Apply Coupon</button>
+    </div>
+    <div>
+      <button class="coupon-btn">Update Cart</button>
+    </div>
+  </div>
+</section>
+
+<!-- Checkout Section -->
+<section class="check-out grid">
+  <div>
+    <h3>Cart Totals</h3>
+    <table>
+      <tr>
+        <td>Subtotal</td>
+        <td>$1,990.00</td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td><strong>$1,990.00</strong></td>
+      </tr>
+    </table>
+    <button class="checkout-btn">Proceed to Checkout</button>
+  </div>
+</section>
+
+    <!-- ==============Footer section================================= -->
+<section class="footer grid">
+        
+        
+        <div class="footer-logo grid">
+        
+          <p class="fs-montserrat fs-200">
+            There are many variations passages of Lorem Ipsum available, but the
+            majority have
+          </p>
+          <div class="social-media flex">
+            <i class="fas fa-facebook-f"></i>
+            <i class="fas fa-instagram"></i>
+            <i class="fas fa-linkedin"></i>
+            <i class="fas fa-twitter"></i>
+          </div>
+        </div>
+        
+        <div class="footer-menu grid">
+          <h3 class="fs-poppins fs-200 bold-800">Quick Links</h3>
+          <ul>
+            <li>
+              <a class="fs-montserrat text-black fs-200" href="#home.html">Home</a>
+            </li>
+            <li>
+              <a class="fs-montserrat text-black fs-200" href="#about.html">About</a>
+            </li>
+            <li>
+              <a class="fs-montserrat text-black fs-200" href="#shop.html">Shop</a>
+            </li>
+            <li>
+              <a class="fs-montserrat text-black fs-200" href="#contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="contact grid">
+          <h3 class="fs-poppins fs-200 bold-800">Contact</h3>
+          <p class="fs-montserrat">
+            +91  901 0000 888 India . Indore 4811 Main Street
+            Granie , Madhya Pradesh
+          </p>
+        </div>
+        
+        <div class="emails grid">
+          <h3 class="fs-poppins fs-200 bold-800">Subscribe To Our Email</h3>
+          <p class="updates fs-poppins fs-300 bold-800">
+            For Latest News & Updates
+          </p>
+          <div class="inputField flex bg-light-red">
+            <input
+            type="email" id="subscriberEmail"
+            placeholder="Enter Your Email"
+            class="fs-montserrat "
+            />
+            <button class="bg-red text-white fs-poppins fs-50" onclick="subscribeEmail()">
+              Subscribe
+            </button>
+          </div>
+           <div id="popupMessage" class="popup-message"></div>
+        </div>
+      </section>
+      <section class="copyRight">
+        <p class="c-font fs-montserrat fs-200">
+          © 2023 eStore. All rights reserved.
+        </p>
+        <p class="fs-montserrat fs-100 text-align p-top">
+          Privacy Policy . Term Condition
+        </p>
+      </section>
+    </footer>
+
+</body>
+</html>

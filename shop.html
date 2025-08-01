@@ -1,0 +1,406 @@
+  
+  
+  
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href=""> -->
+
+<!-- Font Awesome (if you also use normal icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Lottie Player for animated icons -->
+<script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+
+
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  
+  
+  <!-- custon style Sheet & JavaScript -->
+    <link rel="stylesheet" href="css/shop.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js" defer></script>
+    <script src="js/shop.js" defer></script>
+    <!-- custon style Sheet & JavaScript -->
+    <title>Ecommerce Website</title>
+  </head>
+  <body ><div class="home "  >
+    <header class="primary-header container flex">
+        <div class="header-inner-one flex">
+            <div class="logo">
+              <h1 class="logo1"> BEATS  </h1>  
+            </div>
+            <!-- // i change -->
+            <nav>
+              <ul id="primary-navigation" data-visible="false" class="primary-navigation flex" >
+      <button class="mobile-close-btn" data-visible="false" aria-controls="primary-navigation" data-close-button>
+    <!-- Normal Close Circle Icon -->
+    <i class="fas fa-times-circle" ></i>
+    </button>
+        <li><a class="fs-100 fs-montserrat bold-500" href="index.html">Home</a></li>
+        <li><a class="fs-100 fs-montserrat bold-500" href="shop.html">Shop</a></li>
+        <li><a class="fs-100 fs-montserrat bold-500" href="about.html">About Us</a></li>
+        <li><a class="fs-100 fs-montserrat bold-500" href="blog.html">Blog</a></li>
+        <li><a class="fs-100 fs-montserrat bold-500" href="contactus.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+
+        </div>
+
+        <div class="header-login flex">
+          <a href="user.html">
+          
+              <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon class="fas anime-user"
+    src="https://cdn.lordicon.com/dygfbwwx.json"
+    trigger="hover"
+    >
+</lord-icon>
+           
+            </a>
+           
+
+ <!-- Search Icon -->
+  <a href="wishlist.html">
+  <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/gbkitytd.json"
+    trigger="hover">
+</lord-icon>
+</a>
+
+  
+  <!-- Shopping Basket Icon -->
+  <lord-icon class="fas anime-shopping-bag" id="cart-box"
+    src="https://cdn.lordicon.com/uomkwtjh.json"
+    trigger="hover"
+    ></lord-icon>
+
+   <div id="navOpen" class="mobile-open-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+
+
+<!-- =================1111111111================== -->
+        <div id="cart-icon" data-visible="false" class="cart-icon">
+          <div class="shopping flex">
+            <p>Shopping Basket</p>
+            <i id="cross-btn"  class="fas fa-times"></i>
+          </div>
+          <div class="cart bold-800 flex">
+            <i class="fas fa-shopping-cart"></i>
+            <p>Cart Is Empty</p>
+
+            <!-- ================================================== -->
+
+<!--    --------------------      -->
+<!-- i chang -->
+
+        </div>
+     
+    </header>
+
+  </div>
+    <!-- end header section -->
+
+
+
+    <!-- ===================Shop Feature Section============================ -->
+
+    <section class="shop-feature bg-light-red grid">
+      <div>
+        <p class="fs-montserrat text-black">
+          Home <span aria-hidden="true" class="margin">></span> Product
+        </p>
+      </div>
+      <h2 class="fs-poppins fs-300 bold-700">Product</h2>
+    </section>
+
+    <!-- ===================Section 2---------------------- -->
+
+   
+
+    <main class="shop-main-container grid">
+      <!-- -------------------Inner Section=============== -->
+
+      <div>
+        <div class="shop-title flex">
+          <div>
+            <h2 class="fs-poppins fs-300">Shop</h2>
+            <p class="fs-montserrat">Showing 1-9 of 10 results</p>
+          </div>
+          <div>
+            <select name="text" id="" class="fs-poppins bg-light-red text-black " style="border: none; ">
+              <option value="">Default Sorting</option>
+              <option value="">Short By popularity</option>
+              <option value="">Short By Average rating</option>
+              <option value="">Short By latest</option>
+              <option value="">Short By price: Low To High</option>
+              <option value="">Short By price: High To Low</option>
+            </select>
+          </div>
+        </div>
+        <!-- ---------------End----Inner Section=============== -->
+
+        <!-- ==============Shop-product====================== -->
+
+        <section class="shop-product grid">
+          <div class="product-list grid ">
+            <img src="images/red.png" alt="" />
+            <p class="fs-montserrat bold-600">Beats</p>
+            <div class="shop-btn flex">
+              <button class="bg-red text-white fs-montserrat"><a href="product.html">Add To Cart</a>
+              </button>
+              <p class="fs-montserrat bold-700">$ 995.00</p>
+            </div>
+
+            <!-- ===============Pop-Up========================== -->
+
+            <div class="pup-up">
+                <p class="fs-poppins">Sell</p>
+            </div>
+
+            <!-- ===============Pop-Up========================== -->
+
+          </div>
+          <div class="product-list grid">
+
+            <img src="images/head2.png" alt="" />
+            <p class="fs-montserrat bold-600">Beats</p>
+            <div class="shop-btn flex">
+              <button class="bg-red text-white fs-montserrat">
+                Add To Cart
+              </button>
+              <p class="fs-montserrat bold-700">$ 995.00</p>
+            </div>
+          </div>
+          <div class="product-list grid">
+            <img src="images/head3.webp" alt="" />
+            <p class="fs-montserrat bold-600">Beats</p>
+            <div class="shop-btn flex">
+              <button class="bg-red text-white fs-montserrat">
+                Add To Cart
+              </button>
+              <p class="fs-montserrat bold-700">$ 995.00</p>
+            </div>
+          </div>
+          <div class="product-list grid">
+            <img src="images/head4.webp" alt="" />
+            <p class="fs-montserrat bold-600">Beats</p>
+            <div class="shop-btn flex">
+              <button class="bg-red text-white fs-montserrat">
+                Add To Cart
+              </button>
+              <p class="fs-montserrat bold-700">$ 995.00</p>
+            </div>
+          </div>
+          <div class="product-list grid">
+            <img src="images/buds1.png" alt="" />
+            <p class="fs-montserrat bold-600">Beats</p>
+            <div class="shop-btn flex">
+              <button class="bg-red text-white fs-montserrat">
+                Add To Cart
+              </button>
+              <p class="fs-montserrat bold-700">$ 995.00</p>
+            </div>
+               <!-- ===============Pop-Up========================== -->
+
+               <div class="pup-up">
+                <p class="fs-poppins">Sell</p>
+            </div>
+
+            <!-- ===============Pop-Up========================== -->
+          </div>
+          <div class="product-list grid">
+            <img src="images/ear.png" alt="" />
+            <p class="fs-montserrat bold-600">Beats</p>
+            <div class="shop-btn flex">
+              <button class="bg-red text-white fs-montserrat">
+                Add To Cart
+              </button>
+              <p class="fs-montserrat bold-700">$ 995.00</p>
+            </div>
+          </div>
+          <div class="product-list grid">
+            <img src="images/e.webp" alt="" />
+            <p class="fs-montserrat bold-600">Beats</p>
+            <div class="shop-btn flex">
+              <button class="bg-red text-white fs-montserrat">
+                Add To Cart
+              </button>
+              <p class="fs-montserrat bold-700">$ 995.00</p>
+            </div>
+          </div>
+          <div class="product-list grid">
+            <img src="images/earphone.png" alt="" />
+            <p class="fs-montserrat bold-600">Beats</p>
+            <div class="shop-btn flex">
+              <button class="bg-red text-white fs-montserrat">
+                Add To Cart
+              </button>
+              <p class="fs-montserrat bold-700">$ 995.00</p>
+            </div>
+               <!-- ===============Pop-Up========================== -->
+
+               <div class="pup-up">
+                <p class="fs-poppins">Sell</p>
+            </div>
+
+            <!-- ===============Pop-Up========================== -->
+          </div>
+          <div class="product-list grid">
+            <img src="images/sp.webp" alt="" />
+            <p class="fs-montserrat bold-600">Beats</p>
+            <div class="shop-btn flex">
+              <button class="bg-red text-white fs-montserrat">
+                Add To Cart
+              </button>
+              <p class="fs-montserrat bold-700">$ 995.00</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="next-page fs-poppins flex ">
+            <span class="bg-red text-white active bold-800">1</span>
+            <span class="bold-800 text-black">2</span>
+            <span><i class="uil text-red uil-angle-double-right"></i></span>
+        </div>
+      </div>
+      <!-- ==============Shop-product====================== -->
+      <section>
+        
+
+        <aside class="sidebar-category">
+          <div class="category-list flex bg-light-red ">
+            <h3 class=" fs-poppins bold-700 fs-200 ">Product Categories</h3>
+            <i id="arrow" class="fas fa-angle-right" data-category="false"></i>
+          </div>
+
+          <div class="shop-category-list  ">
+            <ul id="side-nav"  class="sidebar-nav grid  " data-category="false">
+              <li>
+                <a class="fs-montserrat text-black bold-500" href="#"
+                  >Earphone</a
+                >
+              </li>
+              <li>
+                <a class="fs-montserrat text-black bold-500" href="#"
+                  >Gadgets</a
+                >
+              </li>
+              <li>
+                <a class="fs-montserrat text-black bold-500" href="#">Gaming</a>
+              </li>
+              <li>
+                <a class="fs-montserrat text-black bold-500" href="#"
+                  >Headphone</a
+                >
+              </li>
+              <li>
+                <a class="fs-montserrat text-black bold-500" href="#">Laptop</a>
+              </li>
+              <li>
+                <a class="fs-montserrat text-black bold-500" href="#"
+                  >Speaker</a
+                >
+              </li>
+              <li>
+                <a class="fs-montserrat text-black bold-500" href="#"
+                  >Uncategorized</a
+                >
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+
+
+
+
+
+      <!-- =============Footer Menu=================== -->
+      <section class="footer grid">
+        
+        
+        <div class="footer-logo grid">
+        
+          <p class="fs-montserrat fs-200">
+            There are many variations passages of Lorem Ipsum available, but the
+            majority have
+          </p>
+          <div class="social-media flex">
+            <i class="fas fa-facebook-f"></i>
+            <i class="fas fa-instagram"></i>
+            <i class="fas fa-linkedin"></i>
+            <i class="fas fa-twitter"></i>
+          </div>
+        </div>
+        
+        <div class="footer-menu grid">
+          <h3 class="fs-poppins fs-200 bold-800">Quick Links</h3>
+          <ul>
+            <li>
+              <a class="fs-montserrat text-black fs-200" href="#home.html">Home</a>
+            </li>
+            <li>
+              <a class="fs-montserrat text-black fs-200" href="#about.html">About</a>
+            </li>
+            <li>
+              <a class="fs-montserrat text-black fs-200" href="#shop.html">Shop</a>
+            </li>
+            <li>
+              <a class="fs-montserrat text-black fs-200" href="#contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="contact grid">
+          <h3 class="fs-poppins fs-200 bold-800">Contact</h3>
+          <p class="fs-montserrat">
+            +91  901 0000 888 India . Indore 4811 Main Street
+            Granie , Madhya Pradesh
+          </p>
+        </div>
+        
+        <div class="emails grid">
+          <h3 class="fs-poppins fs-200 bold-800">Subscribe To Our Email</h3>
+          <p class="updates fs-poppins fs-300 bold-800">
+            For Latest News & Updates
+          </p>
+          <div class="inputField flex bg-light-red">
+            <input
+            type="email" id="subscriberEmail"
+            placeholder="Enter Your Email"
+            class="fs-montserrat "
+            />
+            <button class="bg-red text-white fs-poppins fs-50" onclick="subscribeEmail()">
+              Subscribe
+            </button>
+          </div>
+           <div id="popupMessage" class="popup-message"></div>
+        </div>
+      </section>
+<footer>
+  
+      <section class="copyRight">
+        <p class="c-font fs-montserrat fs-200">
+          © 2025 eStore. All rights reserved.
+        </p>
+        <p class="fs-montserrat fs-100 text-align p-top">
+          Privacy Policy . Term Condition
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>

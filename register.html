@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register</title>
+  <link rel="stylesheet" href="css/register.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="register-wrapper">
+    <div class="register-left">
+      <div class="brand">
+        <h1>BEATS</h1>
+        <p>Join us. Hear the future.</p>
+      </div>
+    </div>
+
+    <div class="register-right">
+      <form action="/register" method="post" class="register-form">
+        <h2>Create Your Account</h2>
+        <p class="register-sub">Sign up to get started</p>
+
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Choose a username" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Create a password" required />
+
+        <button type="submit" onclick="window.location.href='login.html'" class="register-btn">Register</button>
+
+        <p class="login-link">Already have an account? <a href="login.html">Login here</a></p>
+      </form>
+    </div>
+  </div>
+
+
+</body>
+</html>

@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="stylesheet" href=""> -->
+
+  <!-- Font Awesome (if you also use normal icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Lottie Player for animated icons -->
+  <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/index.css" />
+  <script defer src="js/index.js"></script> <!-- ✅ Correct way to include JS -->
+
+  <title>E-commerce Website</title>
+  <!-- <script>
+  const isLoggedIn = localStorage.getItem("isLoggedIn");
+  if (!isLoggedIn) {
+    window.location.href = "login.html";
+  }
+</script> -->
+
+  
+</head>
+  <body>
+
+
+ 
+
+
+
+
+
+
+
+
+
+<div class="home "  >
+    <header class="primary-header container flex">
+        <div class="header-inner-one flex">
+            <div class="logo">
+              <h1 class="logo1"> BEATS  </h1>  
+            </div>
+            <!-- // i change -->
+            <nav>
+              <ul id="primary-navigation" data-visible="false" class="primary-navigation flex" >
+      <button class="mobile-close-btn" data-visible="false" aria-controls="primary-navigation" data-close-button>
+    <!-- Normal Close Circle Icon -->
+    <i class="fas fa-times-circle" ></i>
+    </button>
+        <li><a class="fs-100 fs-montserrat bold-500" href="index.html">Home</a></li>
+        <li><a class="fs-100 fs-montserrat bold-500" href="shop.html">Shop</a></li>
+        <li><a class="fs-100 fs-montserrat bold-500" href="about.html">About Us</a></li>
+        <li><a class="fs-100 fs-montserrat bold-500" href="blog.html">Blog</a></li>
+        <li><a class="fs-100 fs-montserrat bold-500" href="contactus.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+
+        </div>
+
+        <div class="header-login flex">
+          <a href="user.html">
+          
+              <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon class="fas anime-user"
+    src="https://cdn.lordicon.com/dygfbwwx.json"
+    trigger="hover"
+    >
+</lord-icon>
+           
+            </a>
+           
+
+ <!-- Search Icon -->
+  <a href="wishlist.html">
+  <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/gbkitytd.json"
+    trigger="hover">
+</lord-icon>
+</a>
+
+<a href="cart.html">
+<!-- Shopping Basket Icon -->
+<lord-icon class="fas anime-shopping-bag" id="cart-box"
+src="https://cdn.lordicon.com/uomkwtjh.json"
+trigger="hover"
+></lord-icon>
+</a>
+
+<a href="">
+  <a href="login.html" onclick="logout()" id="logoutBtn" class="logout-icon">Logout</a>
+</a>
+    
+   <div id="navOpen" class="mobile-open-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+
+
+<!-- =================1111111111================== -->
+      <!-- <div id="cart-icon" data-visible="false" class="cart-icon">
+          <div class="shopping flex">
+            <p>Shopping Basket</p>
+            <i id="cross-btn" class="fas fa-times"></i>
+          </div>
+          <div class="cart bold-800 flex">
+            <i class="fas fa-shopping-cart"></i>
+            <p>Cart Is Empty</p>
+
+              </div>
+        </div> -->
+
+            <!-- ================================================== -->
+
+<!--    --------------------      -->
+<!-- i chang -->
+
+     
+    </header>
+
+    <!-- end header section -->
+
+
+<!------------hero section-->
+
+<main class="hero-section"> 
+  <div class="mainhome ">
+  <h1 class="fs-200 fs-poppins homeT1 " >  <span class="  big-wireless block lineheight fs-300 bold-900 fs-poppins text-red " style="opacity: 1;" > Wireless</span> <span class="text-red uppercase lineheight2 bold-bolder fs-poppins fs-900" style="opacity: 0.4;" > HeadPhone</span></h1> 
+<img src="images/red.png" class="img i1"  alt=""> 
+  </div>
+  <div class="hero-inner flex">
+    <div class="homeT2">
+      <button class="large-btn bg-red text-white fs-poppins fs-50 " > Shop By Category</button>
+    </div>
+    <div class="hero-info homeT3">
+      <h4 class="fs-montserrat ">Description</h4>
+      <p class="fs-montserrat">Lorem ipsum dolor sit amet consectetur  Repella fekioin delectus fuga ipsa dolores. Harum, vero?</p>
+    </div>
+  </div>
+</main>
+
+<!-- ========= end hero -->
+
+<!-- =====product section====== -->
+<section class="product-section">
+      
+  <div class="category bg-blue grid">
+        <div>
+          <h3 class="text-white fs-50 fs-poppins bold">
+            New <span class="block fs-300 fs-poppins bold">Amazon</span
+            ><span
+              class="earphone uppercase fs-400 fs-poppins bold-900 lineheight"
+              >speaker</span
+            >
+          </h3>
+          <button style="background-color: rgb(9, 74, 114)" class="prdduct-btn large-btn text-white fs-poppins">
+            Browse
+          </button>
+        </div>
+        <div class="product-img6">
+          <img src="images/speaker (2).png" alt="" />
+        </div>
+      </div>
+
+      
+      <div class="category bg-purple grid">
+        <div>
+          <h3 class="text-white fs-50 fs-poppins bold">
+            Best <span class="block fs-300 fs-poppins bold">Bluetooth</span
+            ><span
+              class="earphone uppercase fs-400 fs-poppins bold-900 lineheight"
+              >earbuds</span
+            >
+          </h3>
+          <button class="prdduct-btn large-btn text-white bg-purple fs-poppins">
+            Browse
+          </button>
+        </div>
+        <div class="product-img5">
+          <img src="images/freepik__adjust__15718.png" alt="" />
+        </div>
+      </div>
+      <div class="category bg-gray grid">
+        <div>
+          <h3 class="text-black fs-50 fs-poppins bold">
+            Best
+            <span class="block fs-300 fs-poppins bold text-black">Wireless</span
+            ><span
+              class="earphone uppercase fs-400 fs-poppins bold-900 lineheight " style="color:rgb(186, 185, 185) ;"
+              >Headphone</span
+            >
+          </h3>
+          <button class="prdduct-btn large-btn text-white bg-black fs-poppins">
+            Browse
+          </button>
+        </div>
+        <div class="product-img4">
+          <img src="images/silver.png" alt="" />
+        </div>
+      </div>
+      
+      
+      <div class="category bg-black1 grid">
+        <div>
+          <h3 class="text-white fs-50 fs-montserrat bold">
+            New <span class="block fs-300 fs-poppins bold">design</span
+            ><span
+              class="earphone uppercase fs-400 fs-poppins bold-900 lineheight"
+              >Neckbands</span
+            >
+          </h3>
+          <button class="prdduct-btn large-btn text-black bg-gray fs-poppins">
+            Browse
+          </button>
+        </div>
+        <div class="product-img3">
+          <img src="images/freepik__adjust__15717.png" alt="" />
+        </div>
+      </div>
+      
+      <div class="category bg-lightg grid">
+        <div>
+          <h3 class="text-white fs-50 fs-montserrat bold">
+            New <span class="block fs-300 fs-poppins bold">Stick</span
+            ><span
+              class="earphone uppercase fs-400 fs-montserrat bold-900 lineheight"
+              >earbuds</span
+            >
+          </h3>
+          <button style="background-color: rgba(37, 92, 86, 0.642);"
+            class="prdduct-btn large-btn text-white
+              fs-montserrat"
+          >
+            Browse
+          </button>
+        </div>
+        <div class="product-img2">
+          <img src="images/buds1.png" alt="" />
+        </div>
+      </div>
+
+      <div class="category bg-pink grid">
+        <div>
+          <h3 class="text-white fs-50 fs-montserrat bold">
+            Enjoy <span class="block fs-300 fs-poppins bold">With</span
+            ><span
+              class="earphone uppercase fs-400 fs-montserrat bold-900 lineheight"
+              >Earphone</span
+            >
+          </h3>
+          <button style="background-color: #530929;" class="prdduct-btn large-btn text-white  fs-montserrat">
+            Browse
+          </button>
+        </div>
+        <div class="product-img1">
+          <img src="images/earphone.png" alt="" />
+        </div>
+      </div>    </section>
+
+    <!-- ========================================= -->
+
+
+    <!-- =============Service section============== -->
+
+    <section class="service-section"     >
+      <div class="service  " >
+       <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/yxwmgaav.json"
+    trigger="hover"
+    colors="primary:#c71f16"
+    style="width:60px;height:60px">
+</lord-icon>
+        <div class="service-info">
+          <h3 class="fs-poppins fs-200">Free Shippng</h3>
+          <p class="fs-montserrat fs-50">Free Shipping On All Order</p>
+        </div>
+      </div>
+      <div class="service  "  >
+        <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/aupkjxuw.json"
+    trigger="hover"
+    colors="primary:#c71f16"
+    style="width:60px;height:60px">
+</lord-icon>
+        <div class="service-info  "  >
+          <h3 class="fs-poppins fs-200">Money Guarantee</h3>
+          <p class="fs-montserrat fs-50">30 Day Money Back</p>
+        </div>
+      </div>
+      <div class="service  "  >
+        <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/fpvaxfly.json"
+    trigger="hover"
+    colors="primary:#c71f16"
+    style="width:60px;height:60px">
+</lord-icon>
+        <div class="service-info">
+          <h3 class="fs-poppins fs-200">Online Support 24/7</h3>
+          <p class="fs-montserrat fs-50">Technical Support 24/7</p>
+        </div>
+      </div>
+      <div class="service  " 
+        <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/ynsswhvj.json"
+    trigger="hover"
+    colors="primary:#c71f16"
+    style="width:60px;height:60px">
+</lord-icon>
+        <div class="service-info">
+          <h3 class="fs-poppins fs-200">Secure Payment</h3>
+          <p class="fs-montserrat fs-50">All Cards Accepted</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================Feature Section============= -->
+
+    <section class="feature-section bg-gray">
+      <div class="feature-one grid">
+        <img class="silver" src="images/silver.png" alt="" />
+        <p class="text-white uppercase"></p>
+        <p
+          class=" finesmile font-size lineheight fs-500 text-white fs-poppins bold-900 uppercase"
+        >
+          fine <span class="smile">smile</span>
+        </p>
+        <p class="text-black fs-poppins fs-50"></p>
+      </div>
+      <div class="feature-info">
+        <h2 class="fs-200 text-black fs-poppins bold-500">Beats Solo Air</h2>
+        <p class="fs-poppins fs-300 bold-800 text-black">Summer Sale</p>
+        <p class="fs-montserrat text-black fs-50">
+          Company that’s grown from 270 to 480 employees in the last 12 months.
+        </p>
+        <button class="prdduct-btn large-btn text-black bg-black2 fs-poppins">
+          Shop
+        </button>
+      </div>
+    </section>
+
+
+    
+    <!-- =============================Best Sellar================== -->
+
+    <section class="best-product container">
+      <h2 class="letter-spacing bold-800 fs-poppins">Best Seller Products</h2>
+      <p class="fs-montserrat fs-100">
+        speakerThere are many variations passages
+      </p>
+    </section>
+
+    <!-- ===========================Heading======================== -->
+    <section class="best-Seller">
+   <div class="product grid">
+  <div class="img-wrapper">
+    
+    <img src="images/head1.png" alt="" />
+    <div class="layer">
+      <div class="product-icons">
+        <lord-icon src="https://cdn.lordicon.com/euduggnx.json" trigger="hover" colors="primary:#fff"></lord-icon>
+        <lord-icon src="https://cdn.lordicon.com/gbkitytd.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
+      </div>
+      <div class="product-info">
+        <p class="fs-poppins bold-500 h3">White EliteBook Tablet 810</p>
+        <p class="fs-poppins bold-500 p">$95.00</p>
+      </div>
+    </div>
+    </div>
+  
+</div>
+
+<div class="product grid">
+  <div class="img-wrapper">
+    <img src="images/head3.webp" alt="" />
+    <div class="layer">
+      <div class="product-icons">
+        <lord-icon src="https://cdn.lordicon.com/euduggnx.json" trigger="hover" colors="primary:#fff"></lord-icon>
+        <lord-icon src="https://cdn.lordicon.com/gbkitytd.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
+      </div>
+      <div class="product-info">
+        <p class="fs-poppins bold-500">White EliteBook Tablet 810</p>
+        <p class="fs-poppins bold-500">$995.00</p>
+      </div>
+      </div>
+    </div>
+  
+</div>
+
+<div class="product grid">
+  <div class="img-wrapper">
+    <img src="images/head2.png" alt="" />
+    <div class="layer">
+      <div class="product-icons">
+        <lord-icon src="https://cdn.lordicon.com/euduggnx.json" trigger="hover" colors="primary:#fff"></lord-icon>
+        <lord-icon src="https://cdn.lordicon.com/gbkitytd.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
+      </div>
+      <div class="product-info">
+        <p class="fs-poppins bold-500">Game Console Controller Cable</p>
+        <p class="fs-poppins bold-500">$995.00</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="product grid">
+  <div class="img-wrapper">
+    <img src="images/head4.webp" alt="" />
+    <div class="layer">
+      <div class="product-icons">
+        <lord-icon src="https://cdn.lordicon.com/euduggnx.json" trigger="hover" colors="primary:#fff"></lord-icon>
+        <lord-icon src="https://cdn.lordicon.com/gbkitytd.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
+      </div>
+      <div class="product-info">
+        <p class="fs-poppins bold-500">Rocky Mountain</p>
+        <p class="fs-poppins bold-500">$995.00</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="product grid">
+  <div class="img-wrapper">
+    <img src="images/set_buy_box_PS_meta_mauve_2.webp" alt="" />
+    <div class="layer">
+      <div class="product-icons">
+        <lord-icon src="https://cdn.lordicon.com/euduggnx.json" trigger="hover" colors="primary:#fff"></lord-icon>
+        <lord-icon src="https://cdn.lordicon.com/gbkitytd.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
+      </div>
+      <div class="product-info">
+        <p class="fs-poppins bold-500">White EliteBook Tablet 810</p>
+        <p class="fs-poppins bold-500">$995.00</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="product grid">
+  <div class="img-wrapper">
+    <img src="images/smokin_buds_buy_box_nora_1.webp" alt="" />
+    <div class="layer">
+      <div class="product-icons">
+        <lord-icon src="https://cdn.lordicon.com/euduggnx.json" trigger="hover" colors="primary:#fff"></lord-icon>
+        <lord-icon src="https://cdn.lordicon.com/gbkitytd.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
+      </div>
+      <div class="product-info">
+        <p class="fs-poppins bold-500">Wireless Audio System Multiroom 360</p>
+        <p class="fs-poppins bold-500">$995.00</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="product grid">
+  <div class="img-wrapper">
+    <img src="images/s.webp" alt="" />
+    <div class="layer">
+      <div class="product-icons">
+        <lord-icon src="https://cdn.lordicon.com/euduggnx.json" trigger="hover" colors="primary:#fff"></lord-icon>
+        <lord-icon src="https://cdn.lordicon.com/gbkitytd.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
+      </div>
+      <div class="product-info">
+        <p class="fs-poppins bold-500">Wireless Audio System Multiroom 360</p>
+        <p class="fs-poppins bold-500">$995.00</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="product grid">
+  <div class="img-wrapper">
+    <img src="images/buds2.webp" alt="" />
+    <div class="layer">
+      <div class="product-icons">
+        <lord-icon src="https://cdn.lordicon.com/euduggnx.json" trigger="hover" colors="primary:#fff"></lord-icon>
+        <lord-icon src="https://cdn.lordicon.com/gbkitytd.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
+      </div>
+      <div class="product-info">
+        <p class="fs-poppins bold-500">Smartwatch 2.0 LTE Wifi</p>
+        <p class="fs-poppins bold-500">$995.00</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </section>
+
+    <!-- =========================================== -->
+    <section class="feature-section bg-orange ">
+      <div class="feature-green feature-one grid">
+        <img src="images/ear.png" alt=""  class="ear"/>
+        <p class="text-white uppercase">20% OFF</p>
+        <p
+          class="font-size lineheight fs-500 text-white fs-poppins bold-900 uppercase"
+        >
+          HAPPY <span class="smile">HOURSE</span>
+        </p>
+        <p class="text-white fs-poppins fs-50">15 Nov To & Dec</p>
+      </div>
+      <div class="feature-info">
+        <h2 class="fs-200 text-white fs-poppins bold-500">Beats Solo Air</h2>
+        <p class="fs-poppins fs-300 bold-800 text-white">Summer Sale</p>
+        <p class="fs-montserrat text-white fs-50">
+          Company that’s grown from 270 to 480 employees in the last 12 months.
+        </p>
+        <button class="prdduct-btn large-btn text-orange bg-white fs-poppins">
+          Shop
+        </button>
+      </div>
+    </section>
+    <!-- =========================================== -->
+
+
+      <!-- =============Footer Menu=================== -->
+      <section class="footer grid">
+        
+        
+        <div class="footer-logo grid">
+        
+          <p class="fs-montserrat fs-200">
+            There are many variations passages of Lorem Ipsum available, but the
+            majority have
+          </p>
+          <div class="social-media flex">
+            <i class="fas fa-facebook-f"></i>
+            <i class="fas fa-instagram"></i>
+            <i class="fas fa-linkedin"></i>
+            <i class="fas fa-twitter"></i>
+          </div>
+        </div>
+        
+        <div class="footer-menu grid">
+          <h3 class="fs-poppins fs-200 bold-800">Quick Links</h3>
+          <ul>
+            <li>
+              <a class="fs-montserrat text-black fs-200" href="#home.html">Home</a>
+            </li>
+            <li>
+              <a class="fs-montserrat text-black fs-200" href="#about.html">About</a>
+            </li>
+            <li>
+              <a class="fs-montserrat text-black fs-200" href="#shop.html">Shop</a>
+            </li>
+            <li>
+              <a class="fs-montserrat text-black fs-200" href="#contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="contact grid">
+          <h3 class="fs-poppins fs-200 bold-800">Contact</h3>
+          <p class="fs-montserrat">
+            +91  901 0000 888 India . Indore 4811 Main Street
+            Granie , Madhya Pradesh
+          </p>
+        </div>
+        
+        <div class="emails grid">
+          <h3 class="fs-poppins fs-200 bold-800">Subscribe To Our Email</h3>
+          <p class="updates fs-poppins fs-300 bold-800">
+            For Latest News & Updates
+          </p>
+          <div class="inputField flex bg-light-red">
+            <input
+            type="email" id="subscriberEmail"
+            placeholder="Enter Your Email"
+            class="fs-montserrat "
+            />
+            <button class="bg-red text-white fs-poppins fs-50" onclick="subscribeEmail()">
+              Subscribe
+            </button>
+          </div>
+           <div id="popupMessage" class="popup-message"></div>
+        </div>
+      </section>
+      
+     
+ 
+      
+
+<footer >
+
+      <section  class="copyRight">
+        <p class="c-font fs-montserrat fs-200">
+          © 2025 eStore. All rights reserved.
+        </p>
+        <p class="fs-montserrat fs-100 text-align p-top">
+          Privacy Policy . Term Condition
+        </p>
+      </section>
+    </footer>
+ <!-- Scroll Up Button -->
+      <button onclick="scrollToTop()" id="scrollUpBtn" title="Go to top" style="display:none;">
+        <script src="https://cdn.lordicon.com/lordicon.js"></script>
+        <lord-icon 
+          src="https://cdn.lordicon.com/jqisugjj.json"
+          trigger="hover">
+        </lord-icon>
+      </button>
+
+
+
+
+
+<script>
+        const scrollUpBtn = document.getElementById("scrollUpBtn");
+
+        window.addEventListener("scroll", function() {
+          if (window.pageYOffset > 300) {
+        scrollUpBtn.style.display = "block";
+          } else {
+        scrollUpBtn.style.display = "none";
+          }
+        });
+
+        function scrollToTop() {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+  const cartBoxIcon = document.getElementById("cart-box");
+  const cartPanel = document.getElementById("cart-icon");
+  const closeCartBtn = document.getElementById("cart-close-btn");
+
+  cartBoxIcon.addEventListener("click", () => {
+    cartPanel.setAttribute("data-visible", "true");
+  });
+
+  closeCartBtn.addEventListener("click", () => {
+    cartPanel.setAttribute("data-visible", "false");
+  });
+});
+
+      </script>
+
+
+  </body>
+</html>

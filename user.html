@@ -1,0 +1,110 @@
+
+
+<!-- user dashboard -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Dashboard</title>
+<link rel="stylesheet" href="css/user.css">
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+
+      
+      <div class="user-info">
+            <p><strong>User Name:</strong> User</p>
+            <p><strong>Email:</strong> user@example.com</p>
+            <div class="dash">
+              <h2>Dashboard</h2>
+            <ul class="nav-links">
+            
+              <li>Notification</li>
+              <li>Orders</li>
+              <li>Wishlist</li>
+              <li>Cart</li>
+              <li>Address</li>
+             
+            </ul>
+          </div>
+          </div>
+    <ul class="bottom-links">
+      <li style=" cursor:grab; width: 85%; margin-left: 15px; background-color:rgb(253, 211, 211);" onclick="location.href='index.html'">Back to home  ↩️ </li>
+      <li><button style="width: 100%;" class="logout-icon" onclick="location.href='login.html'">Logout</button></li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    
+
+    <!-- Cart & Wishlist -->
+    <div class="top-section">
+      <div class="box">
+        <h3>Cart</h3>
+        <p>earbuds Pro – $150</p>
+        <p>headphone  – $150</p>
+        <span onclick="location.href='cart.html'" class="see-more">See All</span>
+      </div>
+
+      <div class="box">
+        <h3>Wishlist</h3>
+        <p>headphones Pro – $150</p>
+        <p>earbuds – $150</p>
+        <span onclick="location.href='wishlist.html'" class="see-more">See All</span>
+      </div>
+    </div>
+
+    <!-- Orders Table -->
+    <div class="orders">
+      <h3>Orders</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Date</th>
+            <th>Order Number</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>headohone</td>
+            <td>$150</td>
+            <td>23/04/2023</td>
+            <td>4356</td>
+            <td><span class="status pending">Pending Action</span></td>
+          </tr>
+          <tr>
+            <td>earbuds Pro</td>
+            <td>$150</td>
+            <td>23/04/2023</td>
+            <td>4356</td>
+            <td><span class="status onway">On the way</span></td>
+          </tr>
+          <tr>
+            <td>earbuds Pro</td>
+            <td>$150</td>
+            <td>23/04/2023</td>
+            <td>4356</td>
+            <td><span class="status canceled">Canceled</span></td>
+          </tr>
+          <tr>
+            <td>Apple Watch Pro</td>
+            <td>$150</td>
+            <td>23/04/2023</td>
+            <td>4356</td>
+            <td><span class="status delivered">Delivered</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</body>
+</html>

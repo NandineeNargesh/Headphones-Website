@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wishlist</title>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/toast.js" defer></script>
+  <link rel="stylesheet" href="css/user.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="user-info">
+      <p><strong>User Name:</strong> User</p>
+      <p><strong>Email:</strong> user@example.com</p>
+      <div class="dash">
+        <h2>Dashboard</h2>
+        <ul class="nav-links">
+          <li onclick="location.href='dashboard.html'">Dashboard</li>
+          <li onclick="location.href='orders.html'">Orders</li>
+          <li style="background-color: #ffecec;">Wishlist</li>
+          <li onclick="location.href='cart.html'">Cart</li>
+          <li onclick="location.href='address.html'">Address</li>
+        </ul>
+      </div>
+    </div>
+     <ul class="bottom-links">
+      <li style=" cursor:grab; width: 85%; margin-left: 15px; background-color:rgb(253, 211, 211);" onclick="location.href='index.html'">Back to home  ↩️ </li>
+      <li><button style="width: 100%;" class="logout-icon" onclick="location.href='login.html'">Logout</button></li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <h2>My Wishlist</h2>
+
+    <div class="top-section">
+      <div class="box">
+        <h3>Product: Headphones Pro</h3>
+        <p>Price: $150</p>
+        <p>Category: Audio</p>
+        <span class="see-more">Add to Cart</span>
+      </div>
+
+      <div class="box">
+        <h3>Product: Earbuds</h3>
+        <p>Price: $100</p>
+        <p>Category: Audio</p>
+        <span class="see-more">Add to Cart</span>
+      </div>
+
+      <div class="box">
+        <h3>Product: Apple Watch</h3>
+        <p>Price: $250</p>
+        <p>Category: Wearables</p>
+        <span class="see-more">Add to Cart</span>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

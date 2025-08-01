@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beats Login</title>
+  <script src="js/login.js" defer></script>
+  <link rel="stylesheet" href="css/login.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="login-wrapper">
+    <div class="login-left">
+      <div class="brand">
+        <h1>BEATS</h1>
+        <p>Feel the Bass. Hear the Difference.</p>
+      </div>
+    </div>
+
+    <div class="login-right">
+      <form action="/login" method="post" class="login-form">
+        <h2>Welcome Back 👋</h2>
+        <p class="login-sub">Please login to your account</p>
+
+        <label for="username">Username</label>
+        <input aria-required="" type="text" id="username" name="username" placeholder="Enter username" required />
+
+        <label for="password">Password</label>
+        <input aria-required="" type="password" id="password" name="password" placeholder="Enter password" required />
+
+        <div class="login-links">
+          <a href="/forgot-password">Forgot Password?</a>
+        </div>
+
+
+<button type="submit" class="login-btn" onclick="location.href='index.html'">Login</button>
+        <p class="register-text">Don’t have an account? <a href="register.html">Register here</a></p>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
