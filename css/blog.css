@@ -1,0 +1,74 @@
+
+
+.blog{
+    margin-block: 5rem;
+}
+
+
+
+
+/* =============================Recent News Section================ */
+
+.padding-inline{
+  padding-inline: 0.8rem;
+}
+
+.recent-news{
+  width: 90vw;
+  margin-inline: auto;
+  --grid-gap: 1rem;
+  padding-bottom: 2rem;
+  grid-template-areas: 
+  'one'
+  'two'
+  'three';
+}
+
+.recent-news:nth-child(1){
+  grid-area: one;
+}
+.recent-news:nth-child(2){
+  grid-area: two;
+}
+.recent-news:nth-child(3){
+  grid-area: three;
+}
+
+
+.news > img{
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: transform 250ms ease-in-out;
+}
+
+.news >img:hover{
+  box-shadow: 5px 5px 57px -6px hsl(var(--clr-black) /0.5);
+  transition: transform 250ms ease-in-out;
+    transform:perspective(1000px)  scale(1.03);
+}
+
+
+@media (min-width: 59em){
+  .recent-news{
+    width: 95vw;
+    margin-inline: auto;
+    --grid-gap: 2rem;
+    padding-bottom: 5rem;
+    grid-template-areas: 
+    'one two three';
+  }
+  .news{
+    --grid-gap: 0.8rem;
+  }
+  .news > h2{
+     font-size: 1.2rem;
+  }
+  .news > p{
+    font-size: 0.9rem;
+    padding-right: 4rem;
+  }
+}
+
+
+
+

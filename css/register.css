@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-wrapper {
+  display: flex;
+  width: 90%;
+  max-width: 1000px;
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.register-left {
+  flex: 1;
+  background: linear-gradient(to bottom right, #980303, #ef4066);
+   color: #fff;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.register-left .brand h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.register-left .brand p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.register-right {
+  flex: 1;
+  padding: 4rem 2.5rem;
+}
+
+.register-form h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.register-form .register-sub {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.register-form label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.register-form input:focus {
+ border-color: #c32b44;
+  outline: none;
+}
+
+.register-btn {
+   background-color: #c60122;
+  color: #fff;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.register-btn:hover {
+  background-color: #dd0606;
+}
+
+.login-link {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.login-link a {
+   color: #b70a2d;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .register-wrapper {
+    flex-direction: column;
+  }
+
+  .register-left {
+    padding: 2rem 1.5rem;
+  }
+
+  .register-right {
+    padding: 2rem;
+  }
+}

@@ -1,0 +1,55 @@
+
+
+.contact-us{
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    width: 90vw;
+    margin-inline: auto;
+    align-items: center;
+    --grid-gap: 4rem;
+    margin-block: 3rem;
+  
+}
+
+.contact-us:nth-child(1){
+    grid-area: one;
+}
+
+.contact-us:nth-child(2){
+    grid-area: two;
+}
+
+.contact-form{
+    margin-block: 2rem;
+    --grid-gap: 1rem;
+}
+
+.contact-us input{
+    border: 0;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+.contact-us input:focus{
+    outline: 0;
+}
+
+.contact-us textarea{
+    width: 100%;
+    border: 0;
+    border-radius: 2rem;
+}
+
+.contact-us textarea:focus{
+    outline: 0;
+}
+
+.contact-btn > button{
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
+
+
